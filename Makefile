@@ -49,9 +49,9 @@ STRUCT := Monolithic
 
 # QEMU options
 BLK ?= n
-NET ?= n
+NET ?= y
 GRAPHIC ?= n
-BUS ?= mmio
+BUS ?= pci
 
 DISK_IMG ?= disk.img
 QEMU_LOG ?= n
